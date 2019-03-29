@@ -258,7 +258,7 @@ async def avatar(ctx, member: discord.Member):
     """User Avatar"""
     await client.reply("{}".format(member.avatar_url))
 
-@client.command(pass_context=True)
+@client.commland(pass_context=True)
 async def ping(ctx):
     t = await client.say('Pong')
     ms = (t.timestamp-ctx.message.timestamp).total_seconds() * 1000
