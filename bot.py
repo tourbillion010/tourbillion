@@ -97,10 +97,10 @@ async def join(ctx):
         colour = discord.Colour.blue()
     )
 
-    embed.add_field(name = '^play', value = 'play youtube audio with url', inline = False)
-    embed.add_field(name = '^pause', value = 'pauses audio', inline = False)
-    embed.add_field(name = '^resume', value = 'resumes audio', inline = False)
-    embed.add_field(name = '^leave', value = 'leave voice channel', inline = False)
+    embed.add_field(name = '>play', value = 'play youtube audio with url', inline = False)
+    embed.add_field(name = '>pause', value = 'pauses audio', inline = False)
+    embed.add_field(name = '>resume', value = 'resumes audio', inline = False)
+    embed.add_field(name = '>leave', value = 'leave voice channel', inline = False)
 
     await client.say(embed=embed)
     await client.join_voice_channel(channel)
