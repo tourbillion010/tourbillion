@@ -11,7 +11,7 @@ import aiohttp
 import json
 from discord import Game
 
-my_token = 'NTU0NTQ2NzY5NTgxNzAzMTkw.D2eNgw.N7KDGNwltlJ7C-NANH6ni3D-VD0'
+my_token = 'NTU0NTQ2NzY5NTgxNzAzMTkw.XJ91iA.fb0c_zL88KDTyCHaSxPnUJfnk1I'
 
 client = commands.Bot(command_prefix = '>')
 
@@ -280,4 +280,4 @@ async def serverid(ctx):
 	  await client.say("`{}`".format(ctx.message.server.id))
 
 client.loop.create_task(change_status())
-client.run('NTU0NTQ2NzY5NTgxNzAzMTkw.D2eNgw.N7KDGNwltlJ7C-NANH6ni3D-VD0')
+client.run('NTU0NTQ2NzY5NTgxNzAzMTkw.XJ91iA.fb0c_zL88KDTyCHaSxPnUJfnk1I')
